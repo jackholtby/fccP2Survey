@@ -1,0 +1,10 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
