@@ -19,11 +19,11 @@
     <label id="dropdown-label">Which option best describes your current role?
 
       <select>
-      <option value="Student">Student</option>
-      <option value="Full time job">Full time Job</option>
-      <option value="Full time learner">Full Time learning</option>
-      <option value="Prefer not to say">Prefer not to say</option>
-      <option value="Other">Other</option>
+      <option id="student" value="Student">Student</option>
+      <option id="fulltime" value="Full time job">Full time Job</option>
+      <option id="fulllearner" value="Full time learner">Full Time learning</option>
+      <option id="notsay" value="Prefer not to say">Prefer not to say</option>
+      <option id="other" value="Other">Other</option>
       </select>
     </label>
 
@@ -34,6 +34,34 @@
       <input id="probably" type="radio" name="recommend">Probably
       <input id="definitely" type="radio" name="recommend">Definitely
     </label>
+
+    <label for="like">What do you like most in FCC:
+      <select>
+        <option disabled selected value>Select an option</option>
+        <option id="likechallenges" value="Challenges" name="like">Challenges</option>
+        <option id="projects" value="Projects" name="like">Projects</option>
+        <option id="community" value="Community" name="like">Community</option>
+        <option id="opensource" value="OpenSource" name="like">OpenSource</option>
+      </select>
+    </label>
+
+    <label for="improvement">Things that should be improved in the future (Check all that apply):
+        <input id="frontend" name="improvement">Front-end Projects
+        <input id="backend" name="improvement">Back-end Projects
+        <input id="data" name="data">Data Visualistations
+        <input id="challenges-improve" name="improvement">Challenges
+        <input id="opensourcecommunity" name="improvement">Open Source Community
+        <input id="gitterhelp" name="improvement">Gitter Help Rooms
+        <input id="videos" name="improvement">Videos
+        <input id="citymeetups" name="improvement">City Meetups
+        <input id="wiki" name="improvement">Wiki
+        <input id="forum" name="improvement">Forum
+        <input id="addcourses" name="improvement">Additional Courses
+    </label>
+
+    <p>Any Comments or Suggestions?</p>
+    <input type="text" placeholder="Type your comments here."
+
   </form>
 </body>
 
